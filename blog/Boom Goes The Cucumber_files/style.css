@@ -1,0 +1,144 @@
+/*
+Theme Name: Lightning
+Theme URI: http://www.dailywp.com/lightning-wordpress-theme/
+Description: Free Wordpress Theme from <a href="http://www.dailywp.com">Daily WP</a>
+Version: 1.0
+Author: Sorel Mihai
+Author URI: http://www.dailywp.com/
+*/
+
+/***** GENERAL STUFF *****/
+
+body { margin: 0; color: #545651; padding: 0; background: #ffffff; padding-bottom: 2px; border-bottom: solid 5px #ff3c00; border-top: solid 5px #ff3c00; padding-top: 2px; font-family: 'Verdana','Trebuchet MS','Arial',sans-serif; font-size: 12px;}
+h1,h2,h3,h4,h5 { margin: 0px; padding: 0px; font-weight: normal; }
+.clear { clear:both; display: block; }
+.alignleft { float: left; }
+a { color: #79B100; }
+a:hover { color: #000000; }
+.alignright { float: right; }
+.wrap, .content { width: 900px;; margin: 0 auto 0 auto; }
+
+/***** HEADER *****/
+
+.inheader { background: #F6FBFE; padding: 10px 0 10px 0; }
+.inheader .alignleft { width: 500px; font-size: 14px; color: #7C9AA9; margin-top: 2px;}
+.inheader .alignright { width: 400px; text-align: right;}
+.inheader .textinput { padding: 3px; border: solid 1px #CAE9FB; background: #CAE9FB; width: 220px;}
+.inheader .submitinput { background: #5FA6CF; border: solid 1px #5FA6CF; color: #ffffff; padding: 2px;}
+
+.header { background: #CAE9FB url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/headerbg.jpg) repeat-x bottom center; padding: 50px 0 0 0; margin: 0px 0px 20px 0px; }
+.header h1 { font-size: 45px;; font-family: 'Arial','Trebuchet';}
+.header h1 a { background: #ffffff; padding: 4px; color: #E35325; text-decoration: none;}
+.header p { font-size: 14px; color: #6B92AA; width: 400px; margin: 10px 0px 30px 0; }
+
+/*****  MENU ZONE  *****/
+
+.header ul { list-style: none; padding: 0; margin: 0; }
+.header ul li { display: inline; }
+.header ul li a { margin-right: 7px; width: 130px; background: #5FA6CF; display: block; padding: 10px 0 10px 0; text-align: center; float: left; font-size: 14px; color: #ffffff; text-decoration: none; font-weight: bold;}
+.header ul li.current_page_item a, .header ul li.current_page_item a:hover { background: #ffffff; color: #079bd3; padding-bottom: 17px;}
+.header ul li a:hover { background: #35789F; }
+
+
+/***** CONTENT TAGS ****/
+
+.leftcontent { width: 535px; float: left; margin-right: 15px; 	}
+.rightcontent { width: 320px; float: right; }
+
+/**** ARTICLE ****/
+
+.post { margin-bottom: 45px;  }
+
+.post h2, .rightcontent h3, .comments h2 { font-size: 24px; font-family: 'Georgia','Times New Roman'; }
+.post h2 a { color: #E3590D; text-decoration: none; }
+.posthead h2 a:hover { color: #000000; }
+.postmeta { color: #95AD5A; margin-top: 5px; display: block; font-weight: bold;}
+.posthead { background: #F8FDEC; padding: 10px; }
+
+.postcontent { line-height: 18px; font-size: 12px; letter-spacing: 0.1px; border-bottom: dashed 1px #D9E7C0; margin-bottom: 10px; margin-top: 10px;}
+.postcontent a{ color: #07ADC3; }
+.postcontent a:hover, .postcontent blockquote a { color: #DE5F27; }
+.postcontent blockquote { background: #F1FBFF; margin: 0px; padding: 10px 20px 10px 20px; color: #7C9AA9; }
+
+#Categories { width: 390px;  background: url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/folder.jpg) no-repeat center left; padding-left: 20px; display: block; margin-bottom: 5px;}
+#Comments { width: 110px; text-align: right; display: block;}
+#Comments a { padding-left: 20px; background: url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/comments.jpg) no-repeat center left; } 
+#Categories, #Comments { color: #97A778; }
+
+/*** SIDEBAR ***/
+
+.sidebar { padding: 1px 10px 10px 10px; margin-bottom: 10px; }
+.sidebar h3 { font-size: 20px; padding-bottom: 4px; margin-bottom: 5px; margin-top: 10px;}
+.sidebar ul { list-style: none; padding: 0px; margin: 5px 0px 0px 0px; }
+.sidebar ul li { padding-bottom: 7px; margin-bottom: 7px; }
+.sidebar ul.half li { width: 150px; padding-bottom: 7px; margin-bottom: 7px; float: left; }
+.sidebar .alignleft { width: 160px; }
+.sidebar .alignright { width: 130px; text-align: right;}
+.sidebar .alignright a { text-decoration: none; }
+.sidebar p { margin: 0px; line-height: 14px; font-size: 11px; }
+
+#Blue { background: #E1F2FC; border-top: 2px solid #4091BF; color: #587D92; }
+#Blue h3 { color: #0A4F76; border-bottom: solid 1px #98C2DA; }
+#Blue ul li { border-bottom: solid 1px #B6DBF0; }
+#Blue a { color: #014770; }
+#Blue ul li a p, #Blue .alignright p { color: #587D92; text-decoration: none; font-size: 11px; margin: 5px 0 0 0; }
+
+#Orange { background: #FFF1DC; color: #938A7B; }
+#Orange h3 { color: #764700; border-bottom: solid 1px #DDC49F; }
+#Orange a { color: #C87800; }
+#Orange ul li { border-bottom: solid 1px #F1DAB8; color: #DDC49F; }
+
+#Green { background: #F4FDDE; color: #5F6454; }
+#Green h3 { color: #466200; border-bottom: solid 1px #CBD6B1; }
+#Green ul li { color: #CBD6B1; border-bottom: solid 1px #D9E5BC; }
+
+/*** FOOTER ***/
+
+.box1 { margin: 15px 35px 15px 0px; width: 270px; float: left; }
+.box2 { margin: 15px 15px 15px 0px; width: 270px; float: left; }
+.box3 {  width: 270px; background: url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/rightfoot.jpg) no-repeat left top; float: right; margin: 15px 0 15px 0; }
+.box1 p, .box2 p, .box3 p { width: 270px;  line-height: 16px; font-size: 13px; color: #25819D; background: #93CBDC; padding: 5px;}
+.box1 a, .box2 a, .box3 a { color: #FF3C00; background: #ffffff;}
+.footer2 { width: 885px; margin: 0 auto 0 auto; padding: 0 0 20px 0; color: #25819D; }
+.header h4 { background: #ffffff; padding: 2px; font-size: 16px; color: #FF3C00; font-weight: bold; }
+.footer2 a { color: #FF3C00; background: #ffffff; text-decoration: none; padding: 2px; }
+.footer2 p { width: 885px;; }
+
+
+/*** COMMENTS ***/
+
+.comentariu, .commentform { width: 500px; padding: 10px; }
+.alt, .commentform { background: #F1F9FB url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/postheadbg.jpg) no-repeat right bottom; }
+.comment-meta { font-weight: bold; color: #6E999D; border-bottom: solid 1px #B4D3D8; padding-bottom: 5px; }
+.comment-meta span { font-size: 14px; }
+.comment-meta span a, .comment-meta a { color: #27909A; text-decoration: none; }
+.comments h2 { margin-bottom: 10px; }
+.commentform span { display: block; margin: 6px 0 6px 0; font-size: 14px; }
+.commentform input, .commentform textarea { border: solid 1px #B4D3D8; background: #ffffff; padding: 5px; width: 450px;}
+.commentform input.subscribe_button { width: 150px; margin-top: 10px; }
+
+/**** OTHERS ***/
+
+.rssfeed { padding-left: 22px; background: url(/web/20140311181552im_/http://blog.nathanielguy.com/wp-content/themes/lightning/images/rss.jpg) no-repeat left center; }
+.footer { background: #CAE9FB; padding: 10px; }
+.footer p { width: 900px; margin: 0 auto 0 auto; }
+/*
+     FILE ARCHIVED ON 18:15:52 Mar 11, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:25:17 Oct 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.602
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.012
+  cdx.remote: 12.947
+  LoadShardBlock: 66.463 (3)
+  PetaboxLoader3.datanode: 112.154 (4)
+  load_resource: 98.063
+  PetaboxLoader3.resolve: 44.804
+*/

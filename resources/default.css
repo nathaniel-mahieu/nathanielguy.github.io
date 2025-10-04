@@ -1,0 +1,33 @@
+body {
+ background-color:#535353;
+ background-image:url('../resources/bgcolor.png');
+ text-align:center;
+ margin:0px;
+ color:#fff;
+ }
+.layout_container {
+ width:760px;
+ margin:auto;
+ }
+img {
+ border:0;
+ }
+a {
+ text-decoration:none;
+ }
+.header {
+ background-image:url('../resources/me.png');
+ background-repeat:no-repeat;
+ background-position:center 10px;
+ height:400px; width:760px;
+ }
+.right_links {
+ text-align:left;
+ width:379px;
+ float:right;
+ }
+.left_links {
+ text-align:right;
+ width:379px;
+ float:left;
+ }
